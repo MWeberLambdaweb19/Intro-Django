@@ -4,10 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 django = "*"
 python-decouple = "*"
+db-sqlite3 = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.8"
